@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iniciarsesion">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar10"
+        android:layout_width="66dp"
+        android:layout_height="14dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#5E1010"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar12"
+        android:layout_width="66dp"
+        android:layout_height="14dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#5E1010"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <EditText
+        android:id="@+id/phoneInicioSesion"
+        android:layout_width="298dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#BC0909"
+        android:hint="Número telefónico"
+        android:maxLength="10"
+        android:phoneNumber="true"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#08113C"
+        android:textColorHint="#B77C2B2B"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <EditText
+        android:id="@+id/passwordInicioSesion"
+        android:layout_width="296dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#BC0909"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:password="true"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#08113C"
+        android:textColorHint="#B77C2B2B"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <Button
+        android:id="@+id/generarPin"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#651919"
+        android:text="@string/validarpi"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="117dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946"
+        app:srcCompat="@drawable/login" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar5"
+        android:layout_width="432dp"
+        android:layout_height="16dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#300A0A"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

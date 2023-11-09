@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="399dp"
+        android:layout_height="246dp"
+        android:src="@drawable/rawcarga2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:src="@drawable/rawcarga" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="372dp"
+        android:layout_height="214dp"
+        android:layout_gravity="center"
+        android:fadeScrollbars="false"
+        android:progress="@android:integer/config_shortAnimTime"
+        android:progressBackgroundTint="#DC3939"
+        android:progressTint="#FFFFFF"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741" />
+</LinearLayout>

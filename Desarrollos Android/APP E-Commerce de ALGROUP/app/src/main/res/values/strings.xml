@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">A.L.Group</string>
+    <string name="iniciarsesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="derechos">All Rights Reserved AlGroup 2023</string>
+    <string name="confirmar1">Confirmar</string>
+    <string name="validarpi">Generar Pin De Validación</string>
+    <string name="numAleatorio"></string>
+    <string name="cuentaregresiva"></string>
+    <string name="digitarPin">Digite el Pin Generado:</string>
+    <string name="campoPin"></string>
+    <string name="validar">Validar</string>
+    <string name="UsernameRegistro"></string>
+    <string name="passwordRegistro"></string>
+    <string name="phoneRegistro"></string>
+    <string name="passwordInicioSesion"></string>
+    <string name="phoneInicioSesion"></string>
+    <string name="generarPin"></string>
+    <string name="bienvenido">Bienvenido a nuestra Tienda A.L.Group</string>
+    <string name="perfil">Las mejores soluciones de filtraciones avanzadas en la industria automotriz</string>
+    <string name="combustible">Filtros de Combustible</string>
+    <string name="aceite">Filtros de Aceite</string>
+    <string name="aire">Filtros de Aire</string>
+    <string name="cabina">Filtros de Cabina</string>
+    <string name="pieText">54 Hamada Street Zona Industrial Norte Ashdod</string>
+    <string name="descripCombustible">Los filtros de combustible y aceite de AL Group protegen motores al filtrar contaminantes, se adaptan a sistemas modernos y buscan lograr cero emisiones, ofreciendo rendimiento óptimo y limpieza en el aceite.</string>
+    <string name="descripAceite">Los filtros de aceite avanzados de AL Group eliminan impurezas, previenen daños en el motor, y buscan cumplir con estrictas regulaciones de emisiones, con la visión de lograr un filtro completamente libre de metales y cero emisiones.</string>
+    <string name="descripAire">La empresa ofrece filtros de aire de alta calidad que evitan la entrada de partículas abrasivas en los motores, cumplen con regulaciones de emisiones y buscan desarrollar filtros libres de metales para lograr cero emisiones, maximizando la eficiencia del motor.</string>
+    <string name="descripCabina">Suministramos filtros de aire de cabina altamente eficaces que garantizan aire limpio y fresco en el vehículo, liderando el mercado en rendimiento de aire acondicionado y calefacción, utilizando materiales de alta calidad y tecnología avanzada de filtración.</string>
+    <string name="añadirCarrito1">Añadir al Carrito</string>
+    <string name="cart"></string>
+    <string name="cerrarsesion"></string>
+    <string name="monto"></string>
+    <string name="eliminar">Remover</string>
+</resources>

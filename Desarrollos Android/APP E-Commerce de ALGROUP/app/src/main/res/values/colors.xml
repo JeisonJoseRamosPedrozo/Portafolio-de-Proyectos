@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pastel">#cdc1be</color>
+    <color name="rojoOrange">#ef4036</color>
+    <color name="azulGray">#385366</color>
+    <color name="amarilloConstruct">#d5b255</color>
+    <color name="azulMarine">#46b7b9</color>
+    <color name="verdin">#064034</color>
+    <color name="verdeEco">#bbdb7a</color>
+    <color name="mi_color_fondo">#CFFAF1</color>
+</resources>
