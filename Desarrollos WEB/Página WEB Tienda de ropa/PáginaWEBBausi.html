@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bausi | Tu estilo es nuestro color</title>
+    <link rel="shortcut icon" href="B A U S I.gif">
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header" id="inicio">
+    <img src="Menúdesplegable.svg" alt="" class="hamburger">
+    <nav class="menu-navegacion">
+        <a href="#inicio"><FONT COLOR = "black"><b>Inicio</b></FONT></a>
+        <a href="#servicios"><FONT COLOR = "black"><b>Servicios</b></FONT></a>
+        <a href="#catalogo"><FONT COLOR = "black"><b>Catálogo</b></FONT></a>
+        <a href="#contactos"><FONT COLOR = "black"><b>¿Dónde Estamos?</b></FONT></a>
+    </nav>
+    <div class="contenedor head">
+        <h1 class="title"><FONT COLOR = "black"><b>Somos el camaleón de la moda, tu estilo es nuestro color</b></FONT></h1>
+        <p class="copy"><FONT COLOR = "black"><b>Bienvenido a Bausi</b></FONT></p>
+
+    
+
+    </div>
+
+    </header>
+    <main>
+        <section class="services-contenedor" id="servicios">
+            <h2 class="subtitulo"><b>Realmente nos importa como vistes:</b></h2>
+            <div class="contenedor-servicios">
+                <img src="Servicios.jpg" alt="">
+                <div class="Servicios-servicios">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"><FONT COLOR= "black">1</FONT></span><FONT COLOR= "white">Variedad</FONT></h3>
+                        <p><FONT COLOR= "white">Ofrecemos gran variedad de estilos de prendas, nos adaptamos a tus gustos, tu estilo es la razón de nuestra existencia.</FONT></p>
+
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"><FONT COLOR= "black">2</FONT></span><FONT COLOR= "white">Conócenos</FONT></h3>
+                        <p><FONT COLOR= "white">Atuendos únicos y fantásticos que solo encontrarás en Bausi, te invitamos a conocer nuestro catálogo.</FONT></p>
+
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"><FONT COLOR= "black">3</FONT></span><FONT COLOR= "white">Nuestra definición</FONT></h3>
+                        <p><FONT COLOR= "white">Bausi es original, Bausi es calidad, Bausi es económico.</FONT></p>
+
+                    </div>
+                </div>
+            </div>
+                
+        </section>
+        <section class="gallery" id="catalogo">
+            <div class="contenedor">
+                <h2 class="subtitulo2"><FONT COLOR= "white">CATÁLOGO</FONT></h2>
+                <div class="contenedor-galeria">
+                    <script class="imagenes">
+                        document.addEventListener('DOMContentLoaded', () => {
+                          // Variables
+                          const baseDeDatos = [
+                              {
+                                  id: 1,
+                                  nombre: 'Bermuda Denim Bialy/ Hombres',
+                                  precio: 55000,
+                                  imagen: 'bermuda-denim-bialy-copy.jpg'
+                              },
+                              {
+                                  id: 2,
+                                  nombre: 'Bermuda Denim Kort/ Hombres',
+                                  precio: 55000,
+                                  imagen: "bermuda denim kort.jpeg"
+                              },
+                              {
+                                  id: 3,
+                                  nombre: 'Bermuda Denim Mony/ Hombres',
+                                  precio: 55000,
+                                  imagen: 'bermuda denim mony.jpg'
+                              },
+                              {
+                                  id: 4,
+                                  nombre: 'Bermuda Denim Nynte/ Hombres',
+                                  precio: 55000,
+                                  imagen: 'bermuda denim nynte.jpg'
+                              },
+                              {
+                                  id: 5,
+                                  nombre: 'Bermuda Denim Tover/ Hombres',
+                                  precio: 55000,
+                                  imagen: 'bermuda denim tover.jpg'
+                              },
+                              {
+                                  id: 7,
+                                  nombre: 'Camiseta Critic Roja/ Hombres',
+                                  precio: 35000,
+                                  imagen: 'camiseta critic rojo.jpeg'
+                              },
+                              {
+                                  id: 8,
+                                  nombre: 'Camiseta Cuello Rib Good Vibes Blanca/ Hombres',
+                                  precio: 35000,
+                                  imagen: 'camiseta cuello rib good vibes blanca hombre.jpeg'
+                              },
+                              {
+                                  id: 9,
+                                  nombre: 'Camiseta Cuello Rib Simplicity Negra/ Hombres',
+                                  precio: 35000,
+                                  imagen: 'camiseta cuello rib simplicity negra hombre.jpg'
+                              },
+                              {
+                                  id: 10,
+                                  nombre: 'Camiseta Cuello Rib Simplicity Roja/ Hombres',
+                                  precio: 35000,
+                                  imagen: 'camiseta cuello rib simplicity roja.jpeg'
+                              },
+                              {
+                                  id: 11,
+                                  nombre: 'Camiseta Promises Lila/ Hombres',
+                                  precio: 35000,
+                                  imagen: 'camiseta promises lila.jpeg'
+                              },
+                              {
+                                  id: 12,
+                                  nombre: 'Pantaloneta Flores y Flechas/ Hombres',
+                                  precio: 28000,
+                                  imagen: 'pantaloneta flores y flechas.jpeg'
+                              },
+                              {
+                                  id: 13,
+                                  nombre: 'Pantaloneta Palmeras Colores Fondo Blanco/ Hombres',
+                                  precio: 28000,
+                                  imagen: 'pantaloneta palmeras colores fondo blanco.jpeg'
+                              },
+                              {
+                                  id: 14,
+                                  nombre: 'Pantaloneta Spring Break/ Hombres',
+                                  precio: 28000,
+                                  imagen: 'pantaloneta spring break-hombre.jpeg'
+                              },
+                              {
+                                  id: 15,
+                                  nombre: 'Body Duf Beer/ Mujeres',
+                                  precio: 38000,
+                                  imagen: 'body duf beer.jpg'
+                              },
+                              {
+                                  id: 16,
+                                  nombre: 'Body Palmeras Colores Fondo Blanco/ Mujeres',
+                                  precio: 38000,
+                                  imagen: 'body palmeras colores fondo blanco.jpeg'
+                              },
+                              {
+                                  id: 17,
+                                  nombre: 'Body Palmeras De Colores/ Mujeres',
+                                  precio: 38000,
+                                  imagen: 'body palmeras de colores.jpeg'
+                              },
+                              {
+                                  id: 18,
+                                  nombre: 'Body Palmeras y Flamencos Fondo Verde Menta/ Mujeres',
+                                  precio: 38000,
+                                  imagen: 'body palmeras y flamencos fondo verde menta.jpeg'
+                              },
+                              {
+                                  id: 19,
+                                  nombre: 'Camiseta Básica Gris/ mujeres',
+                                  precio: 24000,
+                                  imagen: 'camiseta basica gris.jpg'
+                              },
+                              {
+                                  id: 20,
+                                  nombre: 'Camiseta Básica Negra/ Mujeres',
+                                  precio: 24000,
+                                  imagen: 'camiseta basica negra.jpg'
+                              },
+                              {
+                                  id: 21,
+                                  nombre: 'Camiseta Caritas Rojo/ Mujeres',
+                                  precio: 30000,
+                                  imagen: 'camiseta caritas rojo.jpg'
+                              },
+                              {
+                                  id: 22,
+                                  nombre: 'Camiseta Promises Lila/ Mujeres',
+                                  precio: 30000,
+                                  imagen: 'camiseta promises lila m.jpeg'
+                              },
+                              {
+                                  id: 23,
+                                  nombre: 'Falda Short Denim Amith/ Mujeres',
+                                  precio: 55000,
+                                  imagen: 'falda short denim amith.jpeg'
+                              },
+                              {
+                                  id: 24,
+                                  nombre: 'Falda Short Denim Arwe/ Mujeres',
+                                  precio: 55000,
+                                  imagen: 'falda short denim arwe.jpeg'
+                              },
+                              {
+                                  id: 25,
+                                  nombre: 'Falda Short Denim Stancy/ Mujeres',
+                                  precio: 55000,
+                                  imagen: 'falda short denim stancy.jpeg'
+                              },
+                              {
+                                  id: 26,
+                                  nombre: 'Jeans Bausi Sary/ Mujeres',
+                                  precio: 75000,
+                                  imagen: 'jeans bausi sary.jpeg'
+                              },
+                              {
+                                  id: 27,
+                                  nombre: 'Short Denim Latig/ Mujeres',
+                                  precio: 55000,
+                                  imagen: 'short denim latig.jpeg'
+                              },
+                              {
+                                  id: 28,
+                                  nombre: 'Pantaloneta Blanca Rayas Negras/ Niños',
+                                  precio: 30000,
+                                  imagen: 'pantaloneta blanca rayas negras.jpeg'
+                              },
+                              {
+                                  id: 29,
+                                  nombre: 'Pantaloneta Cervezas/ Niños',
+                                  precio: 30000,
+                                  imagen: 'pantaloneta cervezas.jpg'
+                              },
+                              {
+                                  id: 30,
+                                  nombre: 'Pantaloneta Rayas Azul Real/ Niños',
+                                  precio: 30000,
+                                  imagen: 'pantaloneta rayas azul real.jpeg'
+                              },
+                              {
+                                  id: 31,
+                                  nombre: 'Pantaloneta Rayas Negras Blancas/ Niños',
+                                  precio: 30000,
+                                  imagen: 'pantaloneta rayas negras blanca.jpeg'
+                              }
+                          ];
+                
+                          let carrito = [];
+                          const divisa = '$';
+                          const DOMitems = document.querySelector('#items');
+                          const DOMcarrito = document.querySelector('#carrito');
+                          const DOMtotal = document.querySelector('#total');
+                          const DOMbotonVaciar = document.querySelector('#boton-vaciar');
+                
+                          // Funciones
+                
+                          /**
+                          * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
+                          */
+                          function renderizarProductos() {
+                              baseDeDatos.forEach((info) => {
+                                  // Estructura
+                                  const miNodo = document.createElement('div');
+                                  miNodo.classList.add('card', 'col-sm-4');
+                                  // Body
+                                  const miNodoCardBody = document.createElement('div');
+                                  miNodoCardBody.classList.add('card-body');
+                                  // Titulo
+                                  const miNodoTitle = document.createElement('h5');
+                                  miNodoTitle.classList.add('card-title');
+                                  miNodoTitle.textContent = info.nombre;
+                                  // Imagen
+                                  const miNodoImagen = document.createElement('img');
+                                  miNodoImagen.classList.add('img-fluid');
+                                  miNodoImagen.setAttribute('src', info.imagen);
+                                  // Precio
+                                  const miNodoPrecio = document.createElement('p');
+                                  miNodoPrecio.classList.add('card-text');
+                                  miNodoPrecio.textContent = `${info.precio}${divisa}`;
+                                  // Boton 
+                                  const miNodoBoton = document.createElement('button');
+                                  miNodoBoton.classList.add('btn', 'btn-primary');
+                                  miNodoBoton.textContent = '+';
+                                  miNodoBoton.setAttribute('marcador', info.id);
+                                  miNodoBoton.addEventListener('click', anyadirProductoAlCarrito);
+                                  // Insertamos
+                                  miNodoCardBody.appendChild(miNodoImagen);
+                                  miNodoCardBody.appendChild(miNodoTitle);
+                                  miNodoCardBody.appendChild(miNodoPrecio);
+                                  miNodoCardBody.appendChild(miNodoBoton);
+                                  miNodo.appendChild(miNodoCardBody);
+                                  DOMitems.appendChild(miNodo);
+                              });
+                          }
+                
+                          /**
+                          * Evento para añadir un producto al carrito de la compra
+                          */
+                          function anyadirProductoAlCarrito(evento) {
+                              // Anyadimos el Nodo a nuestro carrito
+                              carrito.push(evento.target.getAttribute('marcador'))
+                              // Actualizamos el carrito 
+                              renderizarCarrito();
+                
+                          }
+                
+                          /**
+                          * Dibuja todos los productos guardados en el carrito
+                          */
+                          function renderizarCarrito() {
+                              // Vaciamos todo el html
+                              DOMcarrito.textContent = '';
+                              // Quitamos los duplicados
+                              const carritoSinDuplicados = [...new Set(carrito)];
+                              // Generamos los Nodos a partir de carrito
+                              carritoSinDuplicados.forEach((item) => {
+                                  // Obtenemos el item que necesitamos de la variable base de datos
+                                  const miItem = baseDeDatos.filter((itemBaseDatos) => {
+                                      // ¿Coincide las id? Solo puede existir un caso
+                                      return itemBaseDatos.id === parseInt(item);
+                                  });
+                                  // Cuenta el número de veces que se repite el producto
+                                  const numeroUnidadesItem = carrito.reduce((total, itemId) => {
+                                      // ¿Coincide las id? Incremento el contador, en caso contrario no mantengo
+                                      return itemId === item ? total += 1 : total;
+                                  }, 0);
+                                  // Creamos el nodo del item del carrito
+                                  const miNodo = document.createElement('li');
+                                  miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
+                                  miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}${divisa}`;
+                                  // Boton de borrar
+                                  const miBoton = document.createElement('button');
+                                  miBoton.classList.add('btn', 'btn-danger', 'mx-5');
+                                  miBoton.textContent = 'X';
+                                  miBoton.style.marginLeft = '1rem';
+                                  miBoton.dataset.item = item;
+                                  miBoton.addEventListener('click', borrarItemCarrito);
+                                  // Mezclamos nodos
+                                  miNodo.appendChild(miBoton);
+                                  DOMcarrito.appendChild(miNodo);
+                              });
+                             // Renderizamos el precio total en el HTML
+                             DOMtotal.textContent = calcularTotal();
+                          }
+                
+                          /**
+                          * Evento para borrar un elemento del carrito
+                          */
+                          function borrarItemCarrito(evento) {
+                              // Obtenemos el producto ID que hay en el boton pulsado
+                              const id = evento.target.dataset.item;
+                              // Borramos todos los productos
+                              carrito = carrito.filter((carritoId) => {
+                                  return carritoId !== id;
+                              });
+                              // volvemos a renderizar
+                              renderizarCarrito();
+                          }
+                
+                          /**
+                           * Calcula el precio total teniendo en cuenta los productos repetidos
+                           */
+                          function calcularTotal() {
+                              // Recorremos el array del carrito 
+                              return carrito.reduce((total, item) => {
+                                  // De cada elemento obtenemos su precio
+                                  const miItem = baseDeDatos.filter((itemBaseDatos) => {
+                                      return itemBaseDatos.id === parseInt(item);
+                                  });
+                                  // Los sumamos al total
+                                  return total + miItem[0].precio;
+                              }, 0).toFixed(2);
+                          }
+                
+                          /**
+                          * Varia el carrito y vuelve a dibujarlo
+                          */
+                          function vaciarCarrito() {
+                              // Limpiamos los productos guardados
+                              carrito = [];
+                              // Renderizamos los cambios
+                              renderizarCarrito();
+                          }
+                
+                          // Eventos
+                          DOMbotonVaciar.addEventListener('click', vaciarCarrito);
+                
+                          // Inicio
+                          renderizarProductos();
+                          renderizarCarrito();
+                        });
+                    </script>
+                </head>
+                <body>
+                    <div class="container">
+                        <div class="row">
+                            <!-- Elementos generados a partir del JSON -->
+                            <main id="items" class="col-sm-8 row"></main>
+                            <!-- Carrito -->
+                            <aside class="col-sm-4">
+                                <h2><b>Carrito</b></h2>
+                                <!-- Elementos del carrito -->
+                                <ul id="carrito" class="list-group"></ul>
+                                <hr>
+                                <!-- Precio total -->
+                                <p class="text-right"><b>Total:</b><span id="total"></span>$</p>
+                                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="Cerrar.svg" alt="" class="close">
+            <img src="camaleon2.jpg" alt="" class="agregar-imagen">
+        </section>
+        <section class="contenedorfin" id="contactos">
+            <h2 class="subtitulo3"><FONT COLOR= "white">Puntos de venta</FONT></h2>
+            <section class="contact">
+                <div class="cont-contact">
+                    <img src="Bausi valledupar.jpg" alt="">
+                    <h3 class="n-contact"><FONT COLOR= "white">Valledupar-Cesar</FONT></h3>
+                    <p><FONT COLOR= "white">Cra 16#25a-05 Segundo Piso, Barrio 12 de Octubre</FONT></p>
+                </div>
+                <div class="cont-contact">
+                    <img src="Bausi barranquilla.jpg" alt="">
+                    <h3 class="n-contact"><FONT COLOR= "white">Barranquilla-Atlántico</FONT></h3>
+                    <p><FONT COLOR= "white">Calle 53C#22-04, Barrio San Isidro</FONT></p>
+                </div>
+                <div class="cont-contact">
+                    <img src="Bausi cartagena.jpg" alt="">
+                    <h3 class="n-contact"><FONT COLOR= "white">Cartagena-Bolivar</FONT></h3>
+                    <p><FONT COLOR= "white">Cra 68#31-24 Piso 3, Barrio La Castellana</FONT></p>
+                </div>
+                <div class="cont-contact">
+                    <img src="" alt="">
+                    <h3 class="n-contact"><FONT COLOR= "white">Contáctanos por:</FONT></h3>
+                    <p><FONT COLOR= "white">Email: info@bausi.co</FONT></p>
+                    <p><FONT COLOR= "white">También puedes seguirnos en Facebook e Instagram, escríbenos por WhatsApp.</FONT></p>
+            </div>
+            </section>
+        </section>
+
+
+    </main>
+    <footer id="contactos">
+        <div class="contenedor footer-content">
+            <div class="contacts-us">
+                <h2 class="brand"><FONT COLOR= "black">Bausi</font></h2>
+                <p><FONT COLOR= "black">Nos adaptamos a tu estilo</FONT></p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/tiendabausi"class="social-media-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=573117757919"class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+                <a href="https://www.instagram.com/bausi.co/"class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="lightbox.js"></script>
+
+
+</body>
+</html>

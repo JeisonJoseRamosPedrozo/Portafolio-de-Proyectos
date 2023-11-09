@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgb(137, 193, 195),rgb(69, 65, 148),rgb(68, 61, 124));
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgb(38, 45, 40) 5%, rgb(32, 104, 4) 35%, rgb(5, 43, 13) 60%);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-weight: bold;
+}
+
+form {
+    background-color: #dbf6f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, rgb(9, 64, 215) 5%, rgb(40, 13, 104) 35%, rgb(66, 0, 148) 60%);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #060773;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgb(16, 52, 21) 5%, rgb(16, 41, 12) 35%, rgb(3, 34, 17) 60%);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #1d9f46;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0b4a1e;
+    transition: background-color 0.3s ease;
+}
+
+p {
+    color: green;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.registrar{
+    text-align: center;
+}
+
+.registrar a{
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.registrar a:hover{
+    background-color: rgb(95, 185, 95);
+    transition: background-color 0.3s ease;
+}

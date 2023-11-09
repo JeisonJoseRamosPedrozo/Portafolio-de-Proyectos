@@ -1,0 +1,104 @@
+.navbar {
+    background-image: linear-gradient(to bottom, #003366, #0059b3);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-brand h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 5%;
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.navbar-brand div:nth-child(3) {
+    border-right: 5px solid #000080;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-nav .nav-link.login-button {
+    background-image: linear-gradient(to right, #6343e0, #563f6c);
+    border-color:#000000;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.navbar-nav .nav-link.register-button {
+    background-image: linear-gradient(to right, #6996c3, #334659);
+    border-color:#fafafa;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.navbar-nav .nav-link.dropdown-toggle {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items p{
+    font-size: 1.5em;
+    margin-top: 12%;
+    margin-left: 5%;
+    font-weight: bold;
+    color: white;
+}
+
+#navbar-toggler span {
+    color: #ffffff; /* Cambia el color del ícono */
+    border-color: #ffffff; /* Cambia el color del borde del ícono */
+    border-width: 3px;
+    border-style: solid;
+}
+
+#navbar-toggler:active span {
+    background-color: #00d5ff; /* Cambia el color de fondo cuando se selecciona el ícono */
+    color: #032640; /* Cambia el color del ícono */
+    border-color: #04193d; /* Cambia el color del borde del ícono */
+    border-width: 3px;
+    border-style: solid;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 100px;
+    }
+
+    .navbar-brand {
+        flex-wrap: wrap;
+    }
+
+    .navbar-brand h1 {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 0.85em;
+    }
+
+    .navbar-brand img {
+        margin-right: 5px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        color: white;
+        margin-right: 45%;
+        padding-left: 10%;
+    }
+}

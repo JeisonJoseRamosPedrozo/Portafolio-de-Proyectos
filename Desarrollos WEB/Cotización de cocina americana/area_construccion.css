@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente y tipo de letra */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Altura mínima del cuerpo */
+    background: linear-gradient(rgb(188, 199, 224), rgb(182, 233, 218), rgb(174, 216, 221)); /* Fondo con gradiente lineal */
+}
+
+h1 {
+    font-size: 48px; /* Tamaño de fuente */
+    margin-bottom: 30px; /* Margen inferior */
+    margin-top: 12%; /* Margen superior */
+    text-align: center;
+    color: rgb(15, 3, 87); /* Color de texto */
+}
+
+p {
+    font-size: 36px; /* Tamaño de fuente */
+    margin-bottom: 50px; /* Margen inferior */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 17%; /* Altura del contenedor de botones */
+    width: 100%; /* Ancho del contenedor de botones */
+    background: linear-gradient(90deg, rgb(45, 207, 186) 5%, rgb(100, 214, 176) 35%, rgb(102, 226, 235) 60%); /* Fondo con gradiente lineal */
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #140350; /* Color de fondo */
+    color: #20d8e6; /* Color de texto */
+    text-decoration: none;
+    padding: 20px 50px; /* Espacio interno */
+    border-radius: 10px; /* Borde redondeado */
+    font-size: 24px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #03469c; /* Color de fondo al pasar el mouse */
+}
+
+.btn-wrapper {
+    max-width: 80%; /* Ancho máximo del contenedor de botones */
+    padding-right: 30px; /* Espaciado derecho */
+}
+
+.btn-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 30px; /* Margen superior */
+    margin-bottom: 50px; /* Margen inferior */
+    margin-left: 30px; /* Margen izquierdo */
+    margin-right: 30px; /* Margen derecho */
+    gap: 30px; /* Espacio entre elementos */
+}
+
+.btn2 {
+    background: linear-gradient(90deg, rgb(10, 17, 78) 5%, rgb(15, 37, 163) 35%, rgb(51, 8, 100) 60%); /* Fondo con gradiente lineal */
+    color: #ffffff; /* Color de texto */
+    text-decoration: none;
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Borde redondeado */
+    font-size: 18px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+    text-align: center;
+    width: calc((100% - 60px) / 3); /* Ancho del botón calculado */
+    margin: 2%; /* Margen */
+}
+
+.btn2:hover {
+    background: linear-gradient(90deg, rgb(9, 64, 215) 5%, rgb(40, 13, 104) 35%, rgb(66, 0, 148) 60%); /* Fondo con gradiente lineal al pasar el mouse */
+    cursor: default;
+}
+
+form {
+    background-color: #dbf6f5; /* Color de fondo del formulario */
+    padding: 20px; /* Espacio interno del formulario */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: 100%; /* Ancho del formulario */
+    max-width: 60em; /* Ancho máximo del formulario */
+    margin-bottom: 10%; /* Margen inferior del formulario */
+}
+
+label {
+    display: block; /* Hace que el elemento sea de tipo bloque y ocupe todo el ancho */
+    margin-bottom: 10px; /* Margen inferior del etiqueta */
+    background: linear-gradient(90deg, rgb(9, 64, 215) 5%, rgb(40, 13, 104) 35%, rgb(66, 0, 148) 60%); /* Fondo con gradiente lineal */
+    -webkit-background-clip: text; /* Aplica el gradiente al texto */
+    color: transparent; /* Hace el texto transparente para que solo se vea el gradiente */
+    font-weight: bold; /* Peso de la fuente */
+    text-align: center; /* Alineación del texto */
+    font-size: 140%; /* Tamaño de fuente */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Ancho del campo de texto y número */
+    padding: 5px; /* Espacio interno */
+    border: 1px solid #060773; /* Borde */
+    border-radius: 5px; /* Borde redondeado */
+    margin-bottom: 20px; /* Margen inferior */
+    background: linear-gradient(90deg, rgb(16, 52, 21) 5%, rgb(16, 41, 12) 35%, rgb(3, 34, 17) 60%); /* Fondo con gradiente lineal */
+    -webkit-background-clip: text; /* Aplica el gradiente al texto */
+    color: transparent; /* Hace el texto transparente para que solo se vea el gradiente */
+    font-weight: bold; /* Peso de la fuente */
+    font-size: 100%; /* Tamaño de fuente */
+}
+
+input[type="submit"] {
+    background-color: #0b065a; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    padding: 10px 20px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+    font-size: 130%; /* Tamaño de fuente */
+}
+
+input[type="submit"]:hover {
+    background-color: #0f829e; /* Color de fondo del botón al pasar el mouse por encima */
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+}
+
+/* Estilos para las opciones de selección múltiple */
+input[type="radio"] {
+    margin-right: 1rem; /* Margen derecho */
+    background-color: #ffffff; /* Color de fondo del radio button */
+    border: 2px solid #007bff; /* Borde del radio button */
+    border-radius: 50%; /* Borde redondeado */
+    width: 1.1rem; /* Ancho del radio button */
+    height: 1.1rem; /* Altura del radio button */
+    width: calc((100% - 90px) / 12); /* Cálculo de ancho basado en el porcentaje disponible */
+}
+
+input[type="radio"]:hover {
+    background-color: #f2f2f2; /* Color de fondo del radio button al pasar el mouse por encima */
+}
+
+input[type="radio"]:checked {
+    background-color: #007bff; /* Color de fondo del radio button seleccionado */
+}
+
+.radio-options {
+    display: flex; /* Elementos flexibles */
+    flex-direction: row; /* Dirección de los elementos en fila */
+    align-items: center; /* Alineación vertical de los elementos */
+    justify-content: center; /* Alineación horizontal de los elementos */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.radio-options label {
+    display: flex; /* Elementos flexibles */
+    flex-direction: column; /* Dirección de los elementos en columna */
+    align-items: center; /* Alineación vertical de los elementos */
+    text-align: center; /* Alineación horizontal del texto */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
+}
+
+.radio-options label img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    max-height: 200px; /* Ajusta la altura máxima de la imagen */
+    width: auto; /* Permite que la imagen se redimensione proporcionalmente */
+    height: auto; /* Permite que la imagen se redimensione proporcionalmente */
+}
+
+.selected-image {
+    transform: scale(1.1); /* Aplica un efecto de escala al elemento seleccionado */
+    border: 2px solid #007bff; /* Agrega un borde resaltado al elemento seleccionado */
+}
+
+.image-wrapper-estufa,
+.image-wrapper-campana {
+    display: flex; /* Elementos flexibles */
+    justify-content: center; /* Alineación horizontal de los elementos */
+}
+
+.image-wrapper-estufa img,
+.image-wrapper-campana img {
+    max-width: 150px; /* Establece el ancho máximo de la imagen */
+    max-height: 150px; /* Establece la altura máxima de la imagen */
+    width: auto; /* Permite que la imagen se redimensione proporcionalmente */
+    height: auto; /* Permite que la imagen se redimensione proporcionalmente */
+}
+
+.centered-button {
+    display: flex; /* Elementos flexibles */
+    justify-content: center; /* Alineación horizontal de los elementos en el centro */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        margin-top: 35%; /* Margen superior del encabezado */
+        font-size: 36px; /* Tamaño de fuente del encabezado */
+    }
+
+    p {
+        font-size: 24px; /* Tamaño de fuente del párrafo */
+        margin-bottom: 30px; /* Margen inferior del párrafo */
+    }
+
+    .btn {
+        padding: 15px 40px; /* Relleno del botón */
+        border-radius: 8px; /* Borde redondeado del botón */
+        font-size: 24px; /* Tamaño de fuente del botón */
+    }
+
+    .btn-container {
+        flex-direction: row; /* Dirección de los elementos en fila */
+        gap: 10px; /* Espacio entre los elementos */
+    }
+
+    .btn-container .btn {
+        margin: 0; /* Margen de los botones dentro del contenedor */
+    }
+
+    .btn-container2 {
+        display: flex; /* Elementos flexibles */
+        flex-direction: column; /* Dirección de los elementos en columna */
+        align-items: stretch; /* Alineación vertical de los elementos */
+        justify-content: space-between; /* Alineación vertical entre los elementos */
+        margin-top: 30px; /* Margen superior del contenedor */
+        margin-bottom: 50px; /* Margen inferior del contenedor */
+        margin-left: 33px; /* Margen izquierdo del contenedor */
+    }
+
+    .btn2 {
+        font-size: 16px; /* Tamaño de fuente del segundo tipo de botón */
+        width: 100%; /* Ancho del botón al 100% */
+        margin: 0; /* Margen del botón */
+        width: calc((180% - 1px) / 2); /* Cálculo de ancho basado en el porcentaje disponible */
+    }
+
+    .btn-wrapper {
+        max-width: 100%; /* Ancho máximo del contenedor de botones */
+        padding-right: 14px; /* Relleno derecho del contenedor de botones */
+    }
+
+    form {
+        background-color: #dbf6f5; /* Color de fondo del formulario */
+        padding: 20px; /* Relleno del formulario */
+        border-radius: 10px; /* Borde redondeado del formulario */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra del formulario */
+        width: 100%; /* Ancho del formulario al 100% */
+        max-width: 20em; /* Ancho máximo del formulario */
+        margin-bottom: 17%; /* Margen inferior del formulario */
+    }
+
+    input[type="radio"] {
+        margin-right: 1rem; /* Margen derecho de 1 rem para separar los botones de opción */
+        background-color: #ffffff; /* Color de fondo de los botones de opción */
+        border: 2px solid #007bff; /* Borde de 2 píxeles sólido con color #007bff */
+        border-radius: 50%; /* Borde redondeado para crear una forma circular */
+        width: 1.1rem; /* Ancho de los botones de opción */
+        height: 1.1rem; /* Altura de los botones de opción */
+        width: calc((100% - 90px) / 12); /* Ancho calculado para adaptarse al contenedor */
+    }
+    
+    input[type="radio"]:hover {
+        background-color: #f2f2f2; /* Color de fondo de los botones de opción al pasar el mouse por encima */
+    }
+    
+    input[type="radio"]:checked {
+        background-color: #007bff; /* Color de fondo de los botones de opción seleccionados */
+    }
+    
+    .radio-options {
+        display: flex; /* Muestra los botones de opción en línea */
+        flex-direction: column; /* Apila los botones de opción verticalmente */
+        gap: 10px; /* Espacio vertical de 10 píxeles entre los botones de opción */
+    }
+}

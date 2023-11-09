@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e0f1f9;
+
+}
+.fondo{
+    background-color: aliceblue;
+    width: 1270px;
+    padding: 20px;
+    border: 1px solid rgb(198, 196, 196);
+    border-radius: 5px;
+    margin-top: 25px;
+}

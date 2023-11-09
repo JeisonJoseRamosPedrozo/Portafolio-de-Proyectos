@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    background: linear-gradient(135deg, #B6E2FF, #D1EEFF, #EBFAFF);
+}
+
+header {
+	background-color: #0077b6;
+	color: white;
+	padding: 1em;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.mensaje-exito {
+	background-color: #90ee90;
+	color: #006400;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.5em;
+    font-size: 3.2rem;
+}
+
+.mensaje-error {
+	background-color: #ffcccb;
+	color: #8b0000;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.5em;
+	font-size: 3.2rem;
+}
+
+@media (max-width: 600px) {
+	main {
+		padding: 1em;
+	}
+}
